@@ -12,7 +12,7 @@ def jisuanTotal(word):
     lsts = user_counters.most_common(10)
     # most_common()用来实现Top 10的功能，返回一个列表，列表元组提供频率前10的元素和次数
     for lst in lsts:
-        print("%s  %d" % (lst[0], lst[1]))
+        print("%s    \t\t\t%d" % (lst[0], lst[1]))
         # 将元素和计数显示出来
 
 
